@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    align-items: center;
+    background-color: #B8BCE0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    background-color: #CBE7F5;
+    border: 2px solid #9a9cea;
+    border-radius: 50%;
+    color: #9a9cea;
+    font-size: 16pt;
+    font-weight: 600;
+    height: 40px;
+    text-align: center;
+    width: 40px;
+}
+
+#counter {
+    display: flex;
+}
+
+#numeroAtual {
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    margin: 0 20px;
+}
+
+.img {
+    padding: 20px;
+    width: 30vw;
+}
+
+.subtrair {
+    margin-right: 20px;
+}
+
+.somar {
+    margin-left: 20px;
+}
