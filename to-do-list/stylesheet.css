@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+
+body {
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #63bcc9;
+
+}
+
+h1{
+    color: #D84D66;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: #5157A0;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  outline: none;
+}
+
+input:focus {
+    border: 2px solid #D84D66;
+}
+
+#tasks {
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: #5157A0;
+  border-radius: 5px;
+  padding: 15px;
+  color: #ffffff;
+}
+
+.invisible{
+    display: none;
+}
+
+.taskItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: black;
+}
+
+img {
+    width: 30vw;
+}
