@@ -4,6 +4,8 @@
 Pastas com todos os exercícios desenvolvidos no bootcamp Decola Tech da Avanade com a DIO.
 
 ## Exercícios desenvolvidos:
+ - [Contador](https://github.com/prissycorrea/exercicios-dio-avanade/tree/main/contador)
+ - [To-Do List](https://github.com/prissycorrea/exercicios-dio-avanade/tree/main/to-do-list)
  - [Card Profile do Github](https://github.com/prissycorrea/dio-github-card-profile)
  - [Gerador de números aleatórios em React Native](https://github.com/prissycorrea/exercicios-dio-avanade/tree/main/random-numbers)
  - [App currículo](https://github.com/prissycorrea/exercicios-dio-avanade/tree/main/app-curriculo)
